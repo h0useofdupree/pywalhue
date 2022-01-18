@@ -1,3 +1,10 @@
+# This is a fork from lkarbownik's pywalhue.
+His version is outdated and I - as a moderate noob - wanted to try and bring this puppy back. But I really do not think this is needed anywhere, since there is no complication in this script except for pywal - which of course is not my credit. From time to time I will upgrade this script. Following is a table with stuff I added and stuff I am going to.
+
+| Feature	| Description		| Status	|
+|---------------|-----------------------|---------------|
+| Setup Script  | This script will ask for the IP <br/> and give a list of lamp names <br/> to add | in progress |
+
 # pywalhue
 A simple wrapper over pywal to integrate it with Philips Hue light system
 
@@ -25,7 +32,7 @@ Also, note that before first usage of the script you may need to press a bridge 
 
 To install required modules cd into repo directory and run the following comand:
 
-`pip3 install -r requirements.py`
+`pip3 install -r requirements.txt`
 
 ### Installation
 Copy `pywalhue` and `pywal-hue-hook.py` to a directory listed in $PATH environment variable, e.g. `/usr/local/bin`
