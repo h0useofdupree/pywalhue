@@ -6,7 +6,7 @@ His version is outdated and I - as a moderate noob - wanted to try and bring thi
 | Setup Script  | This script will ask for the IP <br/> and give a list of lamp names <br/> to add | in progress |
 
 # pywalhue
-A simple wrapper over pywal to integrate it with Philips Hue light system
+A simple wrapper over pywal to integrate with Philips Hue light system
 
 ## Getting Started
 ### How to use
